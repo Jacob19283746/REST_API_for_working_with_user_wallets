@@ -356,8 +356,9 @@ REST_API_for_working_with_user_wallets/
 
 ```bash
 uv run pytest
-# или
-pytest
+# или 
+uv run pytest svc/tests/test_wallets.py
+
 ```
 
 ## Разработка
@@ -393,3 +394,6 @@ uv run alembic downgrade -1
 - **uvicorn** - ASGI сервер
 - **gunicorn** - WSGI HTTP сервер
 - **uv** - быстрый менеджер пакетов Python
+
+## Разработчик
+[Jacob Grigorev](https://github.com/Jacob19283746)
