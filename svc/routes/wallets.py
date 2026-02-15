@@ -25,7 +25,7 @@ async def home():
     Главная страница API.
 
     Returns:
-        Страница с описанием доступных методов.
+        Страница с приветствием и ссылкой на документацию.
     """
     return {
         "message": "Welcome to the Wallet API",
